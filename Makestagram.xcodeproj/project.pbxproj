@@ -22,6 +22,7 @@
 		701F11F91F27B1CE00E7A5AA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11F81F27B1CE00E7A5AA /* Post.swift */; };
 		701F11FB1F27B68A00E7A5AA /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11FA1F27B68A00E7A5AA /* UIImage+Size.swift */; };
 		701F121B1F27D45100E7A5AA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */; };
+		701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701F121C1F27DB2100E7A5AA /* Home.storyboard */; };
 		709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709137361F224A6D00954578 /* CreateUsernameViewController.swift */; };
 		70E0D7931F20FF48005398F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */; };
 		70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7921F20FF48005398F1 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		701F11F81F27B1CE00E7A5AA /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		701F11FA1F27B68A00E7A5AA /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		701F121C1F27DB2100E7A5AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		709137361F224A6D00954578 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E0D7921F20FF48005398F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				70E0D7921F20FF48005398F1 /* Main.storyboard */,
+				701F121C1F27DB2100E7A5AA /* Home.storyboard */,
 				70E0D79F1F211CEC005398F1 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */,
 				701F11E81F266E8A00E7A5AA /* tab_bar_images in Resources */,
 				70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */,
 				70E0D7971F20FF52005398F1 /* GoogleService-Info.plist in Resources */,
