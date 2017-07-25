@@ -15,6 +15,8 @@
 		701F11E81F266E8A00E7A5AA /* tab_bar_images in Resources */ = {isa = PBXBuildFile; fileRef = 701F11E71F266E8A00E7A5AA /* tab_bar_images */; };
 		701F11EA1F26786100E7A5AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11E91F26786100E7A5AA /* HomeViewController.swift */; };
 		701F11EC1F26787100E7A5AA /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11EB1F26787100E7A5AA /* FindFriendsViewController.swift */; };
+		701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11ED1F277A8600E7A5AA /* MainTabBarController.swift */; };
+		701F11F21F27899200E7A5AA /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11F11F27899200E7A5AA /* MGPhotoHelper.swift */; };
 		709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709137361F224A6D00954578 /* CreateUsernameViewController.swift */; };
 		70E0D7931F20FF48005398F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */; };
 		70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7921F20FF48005398F1 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 		701F11E71F266E8A00E7A5AA /* tab_bar_images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tab_bar_images; path = makestagram_assets/tab_bar_images; sourceTree = SOURCE_ROOT; };
 		701F11E91F26786100E7A5AA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		701F11EB1F26787100E7A5AA /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		701F11ED1F277A8600E7A5AA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		701F11F11F27899200E7A5AA /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
 		709137361F224A6D00954578 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E0D7921F20FF48005398F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 				700ADA521F20EADB00750C4B /* Assets.xcassets */,
 				701F11E71F266E8A00E7A5AA /* tab_bar_images */,
 				70E0D79E1F210160005398F1 /* Supporting Files */,
+				701F11F31F27899D00E7A5AA /* Helpers */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -118,6 +123,14 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		701F11F31F27899D00E7A5AA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				701F11F11F27899200E7A5AA /* MGPhotoHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		70E0D79C1F210137005398F1 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +138,7 @@
 				709137361F224A6D00954578 /* CreateUsernameViewController.swift */,
 				701F11E91F26786100E7A5AA /* HomeViewController.swift */,
 				701F11EB1F26787100E7A5AA /* FindFriendsViewController.swift */,
+				701F11ED1F277A8600E7A5AA /* MainTabBarController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -295,8 +309,10 @@
 			files = (
 				70E0D7A41F21504D005398F1 /* User.swift in Sources */,
 				70E0D7A21F211DE0005398F1 /* LoginViewController.swift in Sources */,
+				701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */,
 				70094FAB1F25A0BD00A348E2 /* UserService.swift in Sources */,
 				701F11EA1F26786100E7A5AA /* HomeViewController.swift in Sources */,
+				701F11F21F27899200E7A5AA /* MGPhotoHelper.swift in Sources */,
 				701F11E51F2625F700E7A5AA /* Storyboard+Utility.swift in Sources */,
 				701F11EC1F26787100E7A5AA /* FindFriendsViewController.swift in Sources */,
 				701F11E31F26222900E7A5AA /* Constants.swift in Sources */,
