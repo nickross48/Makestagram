@@ -24,6 +24,7 @@
 		701F121B1F27D45100E7A5AA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */; };
 		701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701F121C1F27DB2100E7A5AA /* Home.storyboard */; };
 		709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709137361F224A6D00954578 /* CreateUsernameViewController.swift */; };
+		70CB6A321F28F3AB00118D76 /* PostImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */; };
 		70E0D7931F20FF48005398F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */; };
 		70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7921F20FF48005398F1 /* Main.storyboard */; };
 		70E0D7971F20FF52005398F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7951F20FF52005398F1 /* GoogleService-Info.plist */; };
@@ -54,6 +55,7 @@
 		701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		701F121C1F27DB2100E7A5AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		709137361F224A6D00954578 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCellTableViewCell.swift; path = Views/PostImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E0D7921F20FF48005398F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		70E0D7951F20FF52005398F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				701F11E71F266E8A00E7A5AA /* tab_bar_images */,
 				70E0D79E1F210160005398F1 /* Supporting Files */,
 				701F11F31F27899D00E7A5AA /* Helpers */,
+				70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E0D7A41F21504D005398F1 /* User.swift in Sources */,
+				70CB6A321F28F3AB00118D76 /* PostImageCellTableViewCell.swift in Sources */,
 				701F11F51F27A2F500E7A5AA /* StorageService.swift in Sources */,
 				70E0D7A21F211DE0005398F1 /* LoginViewController.swift in Sources */,
 				701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */,
