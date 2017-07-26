@@ -25,6 +25,9 @@
 		701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701F121C1F27DB2100E7A5AA /* Home.storyboard */; };
 		709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709137361F224A6D00954578 /* CreateUsernameViewController.swift */; };
 		70CB6A321F28F3AB00118D76 /* PostImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */; };
+		70CB6A341F29195E00118D76 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A331F29195E00118D76 /* PostHeaderCell.swift */; };
+		70CB6A361F291CA700118D76 /* btn_images in Resources */ = {isa = PBXBuildFile; fileRef = 70CB6A351F291CA700118D76 /* btn_images */; };
+		70CB6A381F29209900118D76 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A371F29209900118D76 /* PostActionCell.swift */; };
 		70E0D7931F20FF48005398F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */; };
 		70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7921F20FF48005398F1 /* Main.storyboard */; };
 		70E0D7971F20FF52005398F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7951F20FF52005398F1 /* GoogleService-Info.plist */; };
@@ -56,6 +59,9 @@
 		701F121C1F27DB2100E7A5AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		709137361F224A6D00954578 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCellTableViewCell.swift; path = Views/PostImageCellTableViewCell.swift; sourceTree = "<group>"; };
+		70CB6A331F29195E00118D76 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = Views/PostHeaderCell.swift; sourceTree = "<group>"; };
+		70CB6A351F291CA700118D76 /* btn_images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = btn_images; path = makestagram_assets/btn_images; sourceTree = SOURCE_ROOT; };
+		70CB6A371F29209900118D76 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = Views/PostActionCell.swift; sourceTree = "<group>"; };
 		70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E0D7921F20FF48005398F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		70E0D7951F20FF52005398F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -124,10 +130,13 @@
 				70E0D79D1F21014F005398F1 /* Storyboards */,
 				701F11E61F2625FB00E7A5AA /* Extensions */,
 				700ADA521F20EADB00750C4B /* Assets.xcassets */,
+				70CB6A351F291CA700118D76 /* btn_images */,
 				701F11E71F266E8A00E7A5AA /* tab_bar_images */,
 				70E0D79E1F210160005398F1 /* Supporting Files */,
 				701F11F31F27899D00E7A5AA /* Helpers */,
 				70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */,
+				70CB6A331F29195E00118D76 /* PostHeaderCell.swift */,
+				70CB6A371F29209900118D76 /* PostActionCell.swift */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -267,6 +276,7 @@
 				701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */,
 				701F11E81F266E8A00E7A5AA /* tab_bar_images in Resources */,
 				70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */,
+				70CB6A361F291CA700118D76 /* btn_images in Resources */,
 				70E0D7971F20FF52005398F1 /* GoogleService-Info.plist in Resources */,
 				700ADA531F20EADB00750C4B /* Assets.xcassets in Resources */,
 				70E0D7A01F211CEC005398F1 /* Login.storyboard in Resources */,
@@ -334,6 +344,7 @@
 				701F11F51F27A2F500E7A5AA /* StorageService.swift in Sources */,
 				70E0D7A21F211DE0005398F1 /* LoginViewController.swift in Sources */,
 				701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */,
+				70CB6A381F29209900118D76 /* PostActionCell.swift in Sources */,
 				70094FAB1F25A0BD00A348E2 /* UserService.swift in Sources */,
 				701F11F91F27B1CE00E7A5AA /* Post.swift in Sources */,
 				701F11FB1F27B68A00E7A5AA /* UIImage+Size.swift in Sources */,
@@ -345,6 +356,7 @@
 				701F11E31F26222900E7A5AA /* Constants.swift in Sources */,
 				701F11F71F27A42A00E7A5AA /* PostService.swift in Sources */,
 				709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */,
+				70CB6A341F29195E00118D76 /* PostHeaderCell.swift in Sources */,
 				700ADA4C1F20EADB00750C4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
