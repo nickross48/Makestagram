@@ -12,7 +12,6 @@
 		700ADA531F20EADB00750C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700ADA521F20EADB00750C4B /* Assets.xcassets */; };
 		701F11E31F26222900E7A5AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11E21F26222900E7A5AA /* Constants.swift */; };
 		701F11E51F2625F700E7A5AA /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11E41F2625F700E7A5AA /* Storyboard+Utility.swift */; };
-		701F11E81F266E8A00E7A5AA /* tab_bar_images in Resources */ = {isa = PBXBuildFile; fileRef = 701F11E71F266E8A00E7A5AA /* tab_bar_images */; };
 		701F11EA1F26786100E7A5AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11E91F26786100E7A5AA /* HomeViewController.swift */; };
 		701F11EC1F26787100E7A5AA /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11EB1F26787100E7A5AA /* FindFriendsViewController.swift */; };
 		701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F11ED1F277A8600E7A5AA /* MainTabBarController.swift */; };
@@ -24,9 +23,9 @@
 		701F121B1F27D45100E7A5AA /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */; };
 		701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701F121C1F27DB2100E7A5AA /* Home.storyboard */; };
 		709137371F224A6D00954578 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709137361F224A6D00954578 /* CreateUsernameViewController.swift */; };
+		70ABD58D1F2A3B820004AE00 /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ABD58C1F2A3B820004AE00 /* LikeService.swift */; };
 		70CB6A321F28F3AB00118D76 /* PostImageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */; };
 		70CB6A341F29195E00118D76 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A331F29195E00118D76 /* PostHeaderCell.swift */; };
-		70CB6A361F291CA700118D76 /* btn_images in Resources */ = {isa = PBXBuildFile; fileRef = 70CB6A351F291CA700118D76 /* btn_images */; };
 		70CB6A381F29209900118D76 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB6A371F29209900118D76 /* PostActionCell.swift */; };
 		70E0D7931F20FF48005398F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */; };
 		70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E0D7921F20FF48005398F1 /* Main.storyboard */; };
@@ -46,7 +45,6 @@
 		700ADA521F20EADB00750C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701F11E21F26222900E7A5AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		701F11E41F2625F700E7A5AA /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
-		701F11E71F266E8A00E7A5AA /* tab_bar_images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tab_bar_images; path = makestagram_assets/tab_bar_images; sourceTree = SOURCE_ROOT; };
 		701F11E91F26786100E7A5AA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		701F11EB1F26787100E7A5AA /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		701F11ED1F277A8600E7A5AA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -58,9 +56,9 @@
 		701F121A1F27D45100E7A5AA /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		701F121C1F27DB2100E7A5AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		709137361F224A6D00954578 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		70ABD58C1F2A3B820004AE00 /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageCellTableViewCell.swift; path = Views/PostImageCellTableViewCell.swift; sourceTree = "<group>"; };
 		70CB6A331F29195E00118D76 /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = Views/PostHeaderCell.swift; sourceTree = "<group>"; };
-		70CB6A351F291CA700118D76 /* btn_images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = btn_images; path = makestagram_assets/btn_images; sourceTree = SOURCE_ROOT; };
 		70CB6A371F29209900118D76 /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = Views/PostActionCell.swift; sourceTree = "<group>"; };
 		70E0D7911F20FF48005398F1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E0D7921F20FF48005398F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +96,7 @@
 				70094FAA1F25A0BD00A348E2 /* UserService.swift */,
 				701F11F41F27A2F500E7A5AA /* StorageService.swift */,
 				701F11F61F27A42A00E7A5AA /* PostService.swift */,
+				70ABD58C1F2A3B820004AE00 /* LikeService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -130,8 +129,6 @@
 				70E0D79D1F21014F005398F1 /* Storyboards */,
 				701F11E61F2625FB00E7A5AA /* Extensions */,
 				700ADA521F20EADB00750C4B /* Assets.xcassets */,
-				70CB6A351F291CA700118D76 /* btn_images */,
-				701F11E71F266E8A00E7A5AA /* tab_bar_images */,
 				70E0D79E1F210160005398F1 /* Supporting Files */,
 				701F11F31F27899D00E7A5AA /* Helpers */,
 				70CB6A311F28F3AB00118D76 /* PostImageCellTableViewCell.swift */,
@@ -274,9 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				701F121D1F27DB2100E7A5AA /* Home.storyboard in Resources */,
-				701F11E81F266E8A00E7A5AA /* tab_bar_images in Resources */,
 				70E0D7941F20FF48005398F1 /* Main.storyboard in Resources */,
-				70CB6A361F291CA700118D76 /* btn_images in Resources */,
 				70E0D7971F20FF52005398F1 /* GoogleService-Info.plist in Resources */,
 				700ADA531F20EADB00750C4B /* Assets.xcassets in Resources */,
 				70E0D7A01F211CEC005398F1 /* Login.storyboard in Resources */,
@@ -345,6 +340,7 @@
 				70E0D7A21F211DE0005398F1 /* LoginViewController.swift in Sources */,
 				701F11EE1F277A8600E7A5AA /* MainTabBarController.swift in Sources */,
 				70CB6A381F29209900118D76 /* PostActionCell.swift in Sources */,
+				70ABD58D1F2A3B820004AE00 /* LikeService.swift in Sources */,
 				70094FAB1F25A0BD00A348E2 /* UserService.swift in Sources */,
 				701F11F91F27B1CE00E7A5AA /* Post.swift in Sources */,
 				701F11FB1F27B68A00E7A5AA /* UIImage+Size.swift in Sources */,
